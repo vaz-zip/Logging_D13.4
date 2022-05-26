@@ -1,0 +1,72 @@
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2022-05-24 02:36:52.570138' AND "django_session"."session_key" = '1snttd7gq6uw6pasrzf0cled1h0917xq') LIMIT 21; args=('2022-05-24 02:36:52.570138', '1snttd7gq6uw6pasrzf0cled1h0917xq'); alias=default
+(0.016) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT (1) AS "a" FROM "auth_group" INNER JOIN "auth_user_groups" ON ("auth_group"."id" = "auth_user_groups"."group_id") WHERE ("auth_user_groups"."user_id" = 1 AND "auth_group"."name" = 'authors') LIMIT 1; args=(1, 'authors'); alias=default
+"GET / HTTP/1.1" 200 500
+File C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py previous mtime: 1653359657.72682, current mtime: 1653359812.4731143
+C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py notified as changed. Signal results: [(<function template_changed at 0x000002025FC01E10>, None), (<function translation_file_changed at 0x00000202605BC940>, None)].
+C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /news/ HTTP/1.1" 200 7039
+C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.
+INFOWatching for file changes with StatReloader
+INFO"GET / HTTP/1.1" 200 500
+INFO"GET / HTTP/1.1" 200 500
+INFOC:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.
+INFOWatching for file changes with StatReloader2022-05-24 12:32:39,926
+INFO"GET /news/ HTTP/1.1" 200 70392022-05-24 12:32:40,746
+INFO"GET / HTTP/1.1" 200 5002022-05-24 12:33:05,357
+INFO"GET /news/1/ HTTP/1.1" 200 36012022-05-24 12:33:08,910
+INFO"GET /news/1/ HTTP/1.1" 200 36012022-05-24 12:33:14,914
+INFO"GET / HTTP/1.1" 200 5002022-05-24 12:34:37,829
+INFOC:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.2022-05-24 12:34:38,391
+INFOWatching for file changes with StatReloader2022-05-24 12:34:39,471
+INFO"GET /news/ HTTP/1.1" 200 70392022-05-24 12:34:39,961
+INFO"GET /news/3/ HTTP/1.1" 200 28822022-05-24 12:34:45,894
+INFO"GET /news/add/ HTTP/1.1" 200 31892022-05-24 12:34:49,554
+INFO"POST /news/add/ HTTP/1.1" 302 02022-05-24 12:35:02,259
+INFO"GET /news/19 HTTP/1.1" 301 02022-05-24 12:35:02,261
+INFO"GET /news/19/ HTTP/1.1" 200 25992022-05-24 12:35:02,274
+INFO"GET /news/add/ HTTP/1.1" 200 31892022-05-24 12:35:06,261
+INFO"GET /news/?page=2 HTTP/1.1" 200 76842022-05-24 12:35:11,779
+INFO"GET /news/?page=3 HTTP/1.1" 200 77092022-05-24 12:35:14,239
+INFOC:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.2022-05-25 06:08:32,675
+INFOWatching for file changes with StatReloader2022-05-25 06:09:12,605
+INFO"GET / HTTP/1.1" 200 5002022-05-25 06:09:15,849
+INFO"GET /news/ HTTP/1.1" 200 76042022-05-25 06:09:18,509
+INFO"GET /news/1/ HTTP/1.1" 200 36012022-05-25 06:09:20,572
+INFO"GET / HTTP/1.1" 200 5002022-05-25 06:11:01,444
+INFOC:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.2022-05-25 06:11:02,120
+INFOWatching for file changes with StatReloader2022-05-25 06:11:28,386
+INFO"GET /news/ HTTP/1.1" 200 76042022-05-25 06:11:47,062
+INFO"GET / HTTP/1.1" 200 5002022-05-25 06:14:03,812
+INFOC:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading.2022-05-25 06:14:04,536
+INFO Watching for file changes with StatReloader 2022-05-25 06:14:05,819
+INFO "GET /news/ HTTP/1.1" 200 7604 2022-05-25 06:14:06,621
+INFO "GET / HTTP/1.1" 200 500 2022-05-25 06:15:36,055
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\new\views.py changed, reloading. 2022-05-25 06:15:36,243
+INFO Watching for file changes with StatReloader 2022-05-25 06:15:37,794
+INFO "GET /news/ HTTP/1.1" 200 7604 2022-05-25 06:15:38,630
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:40,452
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:55,576
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:56,715
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:57,237
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:57,479
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:57,709
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:15:57,953
+INFO "GET / HTTP/1.1" 200 500 2022-05-25 06:17:00,106
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\new\views.py changed, reloading. 2022-05-25 06:17:01,079
+INFO Watching for file changes with StatReloader 2022-05-25 06:17:02,501
+INFO "GET /news/ HTTP/1.1" 200 7604 2022-05-25 06:17:03,049
+INFO "GET /news/19/ HTTP/1.1" 200 2599 2022-05-25 06:17:11,186
+INFO "GET /news/add/ HTTP/1.1" 200 3189 2022-05-25 06:17:15,169
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\new\views.py changed, reloading. 2022-05-25 06:17:51,870
+INFO Watching for file changes with StatReloader 2022-05-25 06:17:53,125
+INFO "GET / HTTP/1.1" 200 500 2022-05-25 06:26:42,237
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading. 2022-05-25 06:26:42,893
+INFO Watching for file changes with StatReloader 2022-05-25 06:28:31,689
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading. 2022-05-25 06:31:35,230
+INFO Watching for file changes with StatReloader 2022-05-25 06:31:36,592
+INFO "GET /news/ HTTP/1.1" 200 7604 2022-05-25 06:31:45,073
+INFO "GET /news/ HTTP/1.1" 200 7604 2022-05-25 06:31:46,460
+INFO "GET /news/1/ HTTP/1.1" 200 3601 2022-05-25 06:31:47,740
+INFO C:\Users\a-mus\PycharmProjects\Mod_D7\NewsPortal_D5.6\news\news\settings.py changed, reloading. 2022-05-25 06:53:16,228
